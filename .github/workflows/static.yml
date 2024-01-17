@@ -43,6 +43,7 @@ jobs:
       contents: read
       pages: write
       id-token: write
+    needs: build
     steps:
       - name: Setup Pages
         uses: actions/configure-pages@v4
