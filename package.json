@@ -1,0 +1,21 @@
+{
+	"name": "legoMarioDatabase",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "live-server public --port=3007",
+		"build": "rimraf dist && minify ./public ./dist"
+	},
+	"keywords": [],
+	"author": "romw314",
+	"license": "MIT",
+	"devDependencies": {
+		"live-server": "^1.2.2",
+		"rimraf": "^5.0.5"
+	},
+	"dependencies": {
+		"downbyte": "^0.2.2"
+	}
+}
